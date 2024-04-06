@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>FreshMeal.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="main">
+        <div class="nav">
+            <!-- <h1>I am nav</h1> -->
+            <div class="lnav">
+                <h2>FreshMeal</h2>
+            </div>
+            <div class="rnav">
+    
+                
+                <div class="user-box">
+                    <div class="user">
+                        <a class="user-icon" href="##"><i class="ri-user-received-2-line"></i>
+                            <div class="user-card">
+                                <div class="user-links">
+                                    <a href="./login.html">Log In</a>
+                                    <a href="./signup.html">Sign Up</a>
+                                </div>
+                                <div class="samosa"></div>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="cart-box">
+                    <a class="cart-icon" href="./cart.html" target="_blank"><i class="ri-shopping-cart-2-line"><span id="cart-plus"></span></i></a>
+                </div>
+    
+            </div>
+
+        </div>
+
+        <div class="top">
+            <!-- <h2>I am top</h2> -->
+
+            <div class="left-top">
+                <h3>Categories</h3>
+            </div>
+            <div class="right-top">
+                <div id="veg">VEG</div>
+                <div id="low-price">PRICE <i class="ri-sort-desc"></i></div>
+                <i class="ri-filter-2-line filter"><span>Filters</span>
+                    <div id="filter-box">
+                        <div class="samosa"></div>
+                        <div class="filter-header">
+                            <p class="p-title">FILTERS</p>
+                            <a class="h-reset" href="">Reset All Filters</a>
+                        </div>
+                        <div class="filter-body">
+                            <div class="food-preference">
+                                <p class="b-title">Food Preference</p>
+                                <div class="veg-and-non-veg" id="select-taste">
+                                    <div class="veg" id="veg-hover">Veg</div>
+                                    <div class="non-veg" id="nonveg-hover">Non Veg</div>
+                                </div>
+                            </div>
+                            <div class="sort-by">
+                                <p class="b-title">Sort by Price</p>
+                                <div class="sort-by-price" id="select">
+                                    <div class="default">Default</div>
+                                    <div class="low-to-high" id="low-to-high-hover">Low to High</div>
+                                    <div class="high-to-low" id="high-to-low-hover">High to Low</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-footer">Apply (<span>121</span>&nbsp;Dishes)</div>
+                    </div></i>
+            </div>
+
+            <div class="line">
+
+            </div>
+        </div>
+
+        <div id="container">
+            
+            <div class="top-container">
+            
+                <div class="menu-list">
+                <!-- <h3>I am Menu List</h3> -->
+
+                <a href="#category-name-sandwiches"><span>Sandwiches</span></a>
+                <a href="#category-name-pizzas"><span>Pizzas</span></a>
+                <a href="#category-name-burger-and-more"><span>Burgers and More</span></a>
+                <a href="#category-name-noodles"><span>Noodles</span></a>
+                <a href="#category-name-bowls"><span>Bowls</span></a>
+                <a href="#category-name-superbowls"><span>Superbowls</span></a>
+                <a href="#category-name-thalis"><span>Thalis</span></a>
+                <a href="#category-name-wraps"><span>Wraps</span></a>
+                <a href="#category-name-keto-specials"><span>Keto Specials</span></a>
+                <a href="#category-name-soups-and-salads"><span>Soups and Salads</span></a>
+                <a href="#category-name-all-day-breakfast"><span>All day breakfast</span></a>
+                <a href="#category-name-desserts-and-beverages"><span>Desserts & Beverages</span></a>
+
+                <div class="links"></div>
+                </div>
+
+                <div class="food-item">
+                <!-- <h2>I am food item</h2> -->
+                <div class="category-header" id="category-name-sandwiches">
+                    <p id="category-name" >Sandwiches</p>
+                </div>
+                <div id="sandwiches" class="food-name">
+
+                    <!-- <div id="item-card">
+                        <h6 class="type">ASIAN</h6>
+                        <div class="food-image">
+                            <img src="./Images/SANDWICHES/American Creamy Corn Sandwich.jpg" alt="">
+                        </div>
+                        <h3 class="item-name">American Creamy Corn Sandwich</h3>
+                        <div class="price-and-btn">
+                            <p class="price">₹120</p>
+                            <button class="add-btn">ADD</button>
+                        </div>
+                    </div> -->
+
+                </div>
+                <br><br>
+
+
+                <div class="category-header" id="category-name-pizzas">
+                    <p id="category-name" >Pizzas</p>
+                </div>
+                <div id="pizzas" class="food-name">
+
+                </div>
+                <br><br>
+
+
+                <div class="category-header" id="category-name-burger-and-more">
+                    <p id="category-name" >Burgers and More</p>
+                </div>
+                <div id="burger-and-more" class="food-name">
+
+                </div>
+                <br><br>
+
+
+                <div class="category-header" id="category-name-noodles">
+                    <p id="category-name">Noodles</p>
+                </div>
+                <div id="noodles" class="food-name">
+
+                </div>
+                <br><br>
+
+
+                <div class="category-header" id="category-name-bowls">
+                    <p id="category-name">Bowls</p>
+                </div>
+                <div id="bowls" class="food-name">
+
+                </div>
+                <br><br>
+
+
+                <div class="category-header" id="category-name-superbowls">
+                    <p id="category-name">Superbowls</p>
+                </div>
+                <div id="superbowls" class="food-name">
+
+                </div>
+                <br><br>
+
+
+                <div class="category-header" id="category-name-thalis">
+                    <p id="category-name">Thalis</p>
+                </div>
+                <div id="thalis" class="food-name">
+
+                </div>
+                <br><br>
+
+
+                <div class="category-header" id="category-name-wraps">
+                    <p id="category-name">Wraps</p>
+                </div>
+                <div id="wraps" class="food-name">
+
+                </div>
+                <br><br>
+
+
+                <div class="category-header" id="category-name-keto-specials">
+                    <p id="category-name">Keto Specials</p>
+                </div>
+                <div id="keto-specials" class="food-name">
+
+                </div>
+                <br><br>
+
+
+                <div class="category-header" id="category-name-soups-and-salads">
+                    <p id="category-name">Soups and Salads</p>
+                </div>
+                <div id="soups-and-salads" class="food-name">
+
+                </div>
+                <br><br>
+
+
+                <div class="category-header" id="category-name-all-day-breakfast">
+                    <p id="category-name">All day breakfast</p>
+                </div>
+                <div id="all-day-breakfast" class="food-name">
+
+                </div>
+                <br><br>
+
+
+                <div class="category-header" id="category-name-desserts-and-beverages">
+                    <p id="category-name">Desserts & Beverages</p>
+                </div>
+                <div id="desserts-and-beverages" class="food-name">
+
+                </div>
+                <br><br>
+                    
+                </div>
+
+            </div>
+
+            <div class="footer">
+                <div class="social-icons">
+                    <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                    <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-line"></i></a>  
+                </div>
+                <div class="web-links">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Team</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="copyright">
+                    <h6>&copy;2024 | All Right Reserved</h6>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+    <!-- Footer Section Start -->
+
+
+        
+
+    </div>
+    <script src="/script.js" type="module"></script>
+    <!-- <script src="/cart.js" type="module"></script> -->
+</body>
+</html>
